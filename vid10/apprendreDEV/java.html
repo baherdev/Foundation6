@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, init-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+
+
+  <title>Apprendre DEV</title>
+</head>
+<body>
+
+
+
+    <div class="off-canvas-wrapper">
+
+          <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+
+
+            <!-- off-canvas title bar for 'small' screen -->
+
+            <div class="title-bar" data-responsive-toggle="menu-principal-horizontal" data-hide-for="medium">
+
+              <div class="title-bar-left">
+
+                <button class="menu-icon" type="button" data-open="menu-principal-responsive"></button>
+
+                <span class="title-bar-title">Apprendre DEV</span>
+
+              </div>
+
+              <div class="title-bar-right" data-responsive-toggle="search-form" data-hide-for="medium">
+
+                <button class="fi-magnifying-glass" type="button" data-toggle></button>
+
+               
+              </div>
+
+
+            </div>
+
+            <form id="search-form" class="show-for-small-only">
+              <div class="input-group">
+            
+                <input class="input-group-field" type="text">
+                <div class="input-group-button">
+                  <input type="submit" class="button" value="Go">
+                </div>
+              </div>
+            </form>
+
+            <!-- ************************** -->
+            <!--  Barre de menu Latéral  -->
+            <!-- ************************** -->
+            <nav  class="off-canvas position-left" id="menu-principal-responsive" data-off-canvas >
+                      <!-- Close button -->
+                <button class="close-button" aria-label="Close menu" type="button" data-close>
+                  <span aria-hidden="true">&times;</span>
+                </button>
+
+                <ul  class="dropdown vertical menu" data-responsive-menu="accordion">
+                   <li class="active">  <a href="index.html">Accueil</a> </li>
+                   <li>  <a href="#" >Language </a>
+                      <ul class="menu vertical">
+                           <li><a href="#">PHP</a></li>
+                           <li><a href="java.html">JAVA</a></li>
+                           <li><a href="#">C</a></li>
+                           <li><a href="#">C++</a></li>
+                           <li><a href="#">C#</a></li>
+                       </ul>
+                   </li>
+                   <li>  <a href="#" >Framework PHP</a>
+                       <ul class="menu vertical">
+                           <li><a href="#">Symfony</a></li>
+                           <li><a href="#">Laravel</a></li>
+                           <li><a href="#">Cakephp</a></li>
+                           <li><a href="#">Yii</a></li>
+                       </ul>
+                   </li>
+                   <li>  <a href="#" >Framework JS </a>
+                       <ul class="menu vertical">
+                           <li><a href="#">Backbone.js</a></li>
+                           <li><a href="#">AngularJS</a></li>
+                           <li><a href="#">React</a></li>
+                           <li><a href="#">Meteor</a></li>
+                       </ul>
+                   </li>
+                   <li >  <a href="#" >CMS </a>
+                       <ul class="menu vertical">
+                           <li><a href="#">Drupal</a></li>
+                           <li><a href="#">Wordpress</a></li>
+                           <li><a href="#">Joomla</a></li>
+                           <li><a href="#">Prestashop</a></li>
+                       </ul>
+                   </li>
+                   <li>  <a href="#" >ERP</a>
+                       <ul class="menu vertical">
+                           <li><a href="#">Odoo</a></li>
+                           <li><a href="#">Dolibarr</a></li>
+                       </ul>
+                   </li>
+                   <li>  <a href="#" >Logiciel</a>
+                       <ul class="menu vertical">
+                           <li><a href="#">Adobe Premier</a></li>
+                           <li><a href="#">Illustrator</a></li>
+                           <li><a href="#">InDesign</a></li>
+                           <li><a href="#">Gimp</a></li>
+                           <li><a href="#">Sublimtext</a></li>
+                           <li><a href="#">Notepad++</a></li>
+                       </ul>
+                   </li>
+                </ul> 
+            </nav>
+
+
+                <!-- ************************** -->
+                <!--  Barre de menu Horizontal  -->
+                <!-- ************************** -->
+
+            <nav class="top-bar" id="menu-principal-horizontal">
+                <div  class="row column"> 
+                 <ul  class="dropdown menu" data-dropdown-menu>
+                   <li class="menu-text">Apprendre DEV</li>
+                   <li  >  <a href="index.html">Accueil</a> </li>
+                   <li class="active">  <a href="#" >Language </a>
+                      <ul class="menu vertical">
+                           <li><a href="#">PHP</a></li>
+                           <li ><a href="java.html">JAVA</a></li>
+                           <li><a href="#">C</a></li>
+                           <li><a href="#">C++</a></li>
+                           <li><a href="#">C#</a></li>
+                       </ul>
+                   </li>
+                   <li>  <a href="#" >Framework PHP</a>
+                       <ul class="menu vertical">
+                           <li><a href="#">Symfony</a></li>
+                           <li><a href="#">Laravel</a></li>
+                           <li><a href="#">Cakephp</a></li>
+                           <li><a href="#">Yii</a></li>
+                       </ul>
+                   </li>
+                   <li>  <a href="#" >Framework JS </a>
+                       <ul class="menu vertical">
+                           <li><a href="#">Backbone.js</a></li>
+                           <li><a href="#">AngularJS</a></li>
+                           <li><a href="#">React</a></li>
+                           <li><a href="#">Meteor</a></li>
+                       </ul>
+                   </li>
+                   <li >  <a href="#" >CMS </a>
+                       <ul class="menu vertical">
+                           <li><a href="#">Drupal</a></li>
+                           <li><a href="#">Wordpress</a></li>
+                           <li><a href="#">Joomla</a></li>
+                           <li><a href="#">Prestashop</a></li>
+                       </ul>
+                   </li>
+                   <li>  <a href="#" >ERP</a>
+                       <ul class="menu vertical">
+                           <li><a href="#">Odoo</a></li>
+                           <li><a href="#">Dolibarr</a></li>
+                       </ul>
+                   </li>
+                   <li>  <a href="#" >Logiciel</a>
+                       <ul class="menu vertical">
+                           <li><a href="#">Adobe Premier</a></li>
+                           <li><a href="#">Illustrator</a></li>
+                           <li><a href="#">InDesign</a></li>
+                           <li><a href="#">Gimp</a></li>
+                           <li><a href="#">Sublimtext</a></li>
+                           <li><a href="#">Notepad++</a></li>
+                       </ul>
+                   </li>
+                 </ul> 
+                </div> 
+            </nav>
+
+            <!-- original content goes in this container -->
+
+            <div class="off-canvas-content" data-off-canvas-content>
+
+
+                 <!-- Carousel-->
+                <div>
+                  <img src="img/JAVA_bootstrap.jpg" alt="Tutoriel Java">
+                </div>
+                
+                <div class="row">
+
+                  <nav aria-label="You are here:" role="navigation">
+                      <ul class="breadcrumbs">
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Langage</a></li>
+                        <li>
+                          <span class="show-for-sr">Current: </span> JAVA
+                        </li>
+                      </ul>
+                  </nav>      
+                  <div class="medium-9 column">
+                    <h1>Java (langage)</h1>
+                      <p>
+                        Le langage Java est un langage de programmation informatique orienté objet créé par James Gosling et Patrick Naughton, employés de Sun Microsystems, avec le soutien de Bill Joy (cofondateur de Sun Microsystems en 1982), présenté officiellement le 23 mai 1995 au SunWorld.
+
+                        La société Sun a été ensuite rachetée en 2009 par la société Oracle qui détient et maintient désormais Java.
+
+                        La particularité et l'objectif central de Java est que les logiciels écrits dans ce langage doivent être très facilement portables sur plusieurs systèmes d’exploitation tels que UNIX, Windows, Mac OS ou GNU/Linux, avec peu ou pas de modifications. Pour cela, divers plateformes et frameworks associés visent à guider, sinon garantir, cette portabilité des applications développées en Java.
+
+
+                      </p>
+
+                    <h1>Historique</h1>
+                      <h2>L'origine du langage</h2>
+                        <p>
+                          Le langage Java est issu d’un projet de Sun Microsystems datant de 1990 : l’ingénieur Patrick Naughton n’était pas satisfait par le langage C++ utilisé chez Sun, ses interfaces de programmation en langage C, ainsi que les outils associés. Alors qu’il envisageait une migration vers NeXT, on lui proposa de travailler sur une nouvelle technologie et c’est ainsi que le Projet Stealth (furtif) vit le jour.
+                        </p>
+                       <h2>Versions successives</h2> 
+                        <p>
+                          Nota 1 : Deux versions peuvent parfois être proposées simultanément, telles que 8u65 & 8u66 : la différence consiste généralement en des corrections de bugs mineurs (sans incidence de sécurité notamment), pour lesquelles la mise à jour à la toute dernière version n'est pas critique et est de ce fait laissée au choix des administrateurs (JRE) ou développeurs (JDK).
+
+                          Nota 2 : Les versions publiques de Java peuvent être suivies de versions non publiques, dites Advanced, réservées à des usages commerciaux; ainsi Java 1.6u45 est la dernière version publique de Java6, mais 6u113 l'ultime version disponible fin mars 2016.
+                        </p>
+
+                        <div class="table-scroll">
+                          <table class="hover"> 
+                                <thead> 
+                                  <tr> 
+                                    <th>Version</th> 
+                                    <th>Last update</th> 
+                                    <th>Dénomination JSE/JRE</th> 
+                                    <th>Nom de code</th> 
+                                    <th>Spécifications</th> 
+                                    <th>JDK</th> 
+                                    <th>Statut fin mars 2016</th> 
+                                    <th>Période de maintenance</th> 
+                                    <th>Support étendu</th> 
+                                  </tr> 
+                                </thead> 
+                                <tbody> 
+                                  <tr> 
+                                    <th>1.0</th> 
+                                    <td>1.0.2</td> 
+                                    <td>Java 1.0</td> 
+                                    <td>Oak</td> 
+                                    <td>(en) JSR 52</td> 
+                                    <td>JDK 1.0.2</td> 
+                                    <td>N'est plus soutenu de façon active</td> 
+                                    <td>1996-2000</td> 
+                                    <td></td> 
+                                  </tr> 
+                                  <tr> 
+                                    <th>1.1</th> 
+                                    <td>8_16</td> 
+                                    <td>Java 1.1</td> 
+                                    <td></td> 
+                                    <td>(en) JSR 52</td> 
+                                    <td>1.1.8_16</td> 
+                                    <td>N'est plus soutenu de façon active</td> 
+                                    <td>1997-2000</td> 
+                                    <td></td> 
+                                  </tr> 
+                                  <tr> 
+                                    <th>1.2</th> 
+                                    <td>2_017</td> 
+                                    <td>J2SE 1.2</td> 
+                                    <td>Playground</td> 
+                                    <td>JSR 52</td> 
+                                    <td>1.2.2_11</td> 
+                                    <td>N'est plus soutenu de façon active</td> 
+                                    <td>2000-2006</td> 
+                                    <td>l</td> 
+                                  </tr> 
+                                  <tr> 
+                                    <th>1.3</th> 
+                                    <td>1_29</td> 
+                                    <td>J2SE 1.3</td> 
+                                    <td>Kestrel</td> 
+                                    <td>JSR 58</td> 
+                                    <td>1.3.1_29</td> 
+                                    <td>Obsolète</td> 
+                                    <td>2000-2001</td> 
+                                    <td></td> 
+                                  </tr>
+                                  <tr> 
+                                    <th>1.4</th> 
+                                    <td>2_30</td> 
+                                    <td>J2SE 1.4</td> 
+                                    <td>Merlin</td> 
+                                    <td>JSR 59</td> 
+                                    <td>1.4.2_30</td> 
+                                    <td>Obsolète</td> 
+                                    <td>2000-20082</td> 
+                                    <td></td> 
+                                  </tr>
+                                  <tr> 
+                                    <th>1.5</th> 
+                                    <td>0_22/0_85</td> 
+                                    <td>J2SE 5.0</td> 
+                                    <td>Tiger</td> 
+                                    <td>JSR 176</td> 
+                                    <td>1.5.0_22</td> 
+                                    <td>Obsolète - 5u51 à 5u85 uniquement disponibles avec un support Oracle spécifique</td> 
+                                    <td>2002-20092</td> 
+                                    <td>Mai 2015</td> 
+                                  </tr>
+                                  <tr> 
+                                    <th>1.6</th> 
+                                    <td>0_45/0_111</td> 
+                                    <td>Java SE 6</td> 
+                                    <td>Mustang</td> 
+                                    <td>JSR 270</td> 
+                                    <td>6u113</td> 
+                                    <td>Obsolète - 6u51 à 6u111 uniquement disponibles avec un support Oracle spécifique2</td> 
+                                    <td>2005-2013</td> 
+                                    <td>Déc. 2018</td> 
+                                  </tr>
+                                  <tr> 
+                                    <th>1.7</th> 
+                                    <td>0_79/0_80</td> 
+                                    <td>Java SE 7</td> 
+                                    <td>Dolphin</td> 
+                                    <td>JSR 336</td> 
+                                    <td>1.7.0_79</td> 
+                                    <td>Stable, actuel, version 1.7.0_79 proposée aux utilisateurs2</td> 
+                                    <td>2011- 2015</td> 
+                                    <td>Juillet 2022</td> 
+                                  </tr>
+                                  <tr> 
+                                    <th>1.8</th> 
+                                    <td>0_91</td> 
+                                    <td>Java SE 8</td> 
+                                    <td>Kenai</td> 
+                                    <td>(en) JSR 337</td> 
+                                    <td>1.8.0_91</td> 
+                                    <td>Stable, actuel, version 1.8.0_9126 proposée aux utilisateurs</td> 
+                                    <td>2014-2017</td> 
+                                    <td></td> 
+                                  </tr>
+                            </tbody> 
+                          </table>                                    
+                        </div>
+                  </div>
+              
+
+
+            
+                <div class="medium-3 column">
+                    
+                    <ul class="accordion" data-accordion>
+                      <li class="accordion-item is-active" data-accordion-item>
+                        
+                        <div class="accordion-title">Quoi de 9 </div>
+                        <div class="accordion-content" data-tab-content>
+                            <div class="media-object">
+                                <div class="media-object-section">
+                                      <div class="thumbnail">
+                                        <a href="#">
+                                          <img  src="img/cms-logo_panel.png" alt="news cms">
+                                        </a>
+                                      </div>
+                                </div>      
+                                <div class="media-object-section main-section">
+                                  <h4>Drupal Theming</h4>
+                                  <span class="success label">Nouveau</span>
+                                  <p>Une nouvelle sur le theming de Drupal 8. Nous allons créer un simple template, ensuite nous allons les ajouter dans le dossier theme.... <a href="#">Plus</a></p>
+                                </div>
+                            </div>
+                            <div class="media-object">
+                                <div class="media-object-section">
+                                  <div class="thumbnail">
+                                    <a href="#">
+                                      <img src="img/programmation-logo_panel.png" alt="apprendre php">
+                                    </a>
+                                  </div>
+                                </div>  
+                              <div class="media-object-section main-section">
+                                <h4 >Nouvelle formation de PHP</h4>
+                                <p>Dans la partie de cette formation nous allons apprendre comment manipuler les tableaux. Ensuite on va passer à la programmation orienté objet de php...<a href="#">Plus</a></p>
+                              </div>
+                            </div>
+                            <div class="media-object">
+                                <div class="media-object-section">
+                                  <div class="thumbnail">
+                                    <a href="#">
+                                      <img src="img/erp-logo_panel.png" alt="apprendre erp">
+                                    </a>
+                                  </div>
+                                </div>  
+                              <div class="media-object-section main-section">
+                                <h4 >Odoo</h4>
+                                <p>Un nouveau tutoriel sur odoo, la dernière fois nous avons vu comment l'insttalé sur Debian 8, cette fois-ci nous allons apprendre l'installation sur Ubuntu server 14.04.... <a href="#">Plus</a></p>
+                              </div>
+                            </div>
+                        </div>
+                      </li>
+                    </ul>
+
+                </div>  
+
+            </div>
+
+            <footer>
+ 
+                <div class="row small-up-2 medium-up-3 large-up-6">     
+
+                             <div class="column">   
+                                <div class="h3">Language</div>
+                                <ul >
+                                        <li><a href="#">PHP</a></li>
+                                        <li><a href="#">JAVA</a></li>
+                                        <li><a href="#">C</a></li>
+                                        <li><a href="#">C++</a></li>
+                                        <li><a href="#">C#</a></li>
+                                </ul>
+                            </div>    
+
+                             <div class="column">
+                                <div class="h3">Framework PHP</div>
+                                <ul>
+                                      <li><a href="#">Symfony</a></li>
+                                      <li><a href="#">Laravel</a></li>
+                                      <li><a href="#">Cakephp</a></li>
+                                      <li><a href="#">Yii</a></li>
+                                </ul>
+                            </div>  
+                           
+
+                            <div class="column">
+                                <div class="h3">Framework JS </div>
+                                <ul>
+                                      <li><a href="#">Backbone.js</a></li>
+                                      <li><a href="#">AngularJS</a></li>
+                                      <li><a href="#">React</a></li>
+                                      <li><a href="#">Meteor</a></li>
+                                </ul>
+                            </div>    
+                            
+                           
+                            <div class="column">
+                                <div class="h3">CMS </div>
+                                <ul>
+                                      <li><a href="#">Drupal</a></li>
+                                      <li><a href="#">Wordpress</a></li>
+                                      <li><a href="#">Joomla</a></li>
+                                      <li><a href="#">Prestashop</a></li>
+                                </ul>
+                            </div>
+
+                            
+                            <div class="column">
+                                <div class="h3">ERP </div>
+                                <ul>
+                                      <li><a href="#">Odoo</a></li>
+                                      <li><a href="#">Dolibarr</a></li>
+                                </ul>
+                       
+                            </div>
+                             <div class="column">
+                                <div class="h3">Logiciel </div>
+                                <ul>
+                                      <li><a href="#">Adobe Premier</a></li>
+                                      <li><a href="#">Illustrator</a></li>
+                                      <li><a href="#">InDesign</a></li>
+                                      <li><a href="#">Gimp</a></li>
+                                      <li><a href="#">Sublimtext</a></li>
+                                      <li><a href="#">Notepad++</a></li>
+                                </ul>
+                            </div>    
+                </div>                
+
+            </footer>
+        
+
+
+
+          <!-- close wrapper, no more content after this -->
+
+          </div>
+
+    </div>
+
+   
+<!-- ********************* -->
+<!-- Carrousel-->
+<!-- ********************* -->
+
+
+<!-- ********************* -->
+<!-- Contenu-->
+<!-- ********************* -->
+
+<!-- ********************* -->
+<!-- Footer-->
+<!-- ********************* -->
+
+
+<script type="text/javascript" src="js/vendor/jquery.js"></script>
+<script type="text/javascript" src="js/vendor/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+</body>
+</html>
