@@ -1,0 +1,28 @@
+/*Ammélioration off-canvas*/
+#menu-principal-responsive{
+	background: #000000;
+	color: #FFFFFF;
+}
+
+#menu-principal-responsive .menu .active > a{
+background: #000000;
+color: #2199e8;
+}
+
+#menu-principal-responsive li > a{
+
+color: #FFFFFF;
+}
+
+
+#menu-principal-responsive .is-accordion-submenu-parent > a::after {
+
+    border-color: #FFFFFF transparent transparent;
+
+}
+
+.off-canvas.position-left {
+
+    height: 100%;
+}
+
